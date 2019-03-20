@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9353" started-at="2019-03-20T12:10:48Z" finished-at="2019-03-20T12:10:57Z">
+  <suite name="Default suite" duration-ms="9529" started-at="2019-03-20T17:01:18Z" finished-at="2019-03-20T17:01:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9353" started-at="2019-03-20T12:10:48Z" finished-at="2019-03-20T12:10:57Z">
-      <class name="com.cargurus.com.image.AppTest">
-        <test-method status="PASS" signature="testApp()[pri:0, instance:com.cargurus.com.image.AppTest@11758f2a]" name="testApp" duration-ms="2" started-at="2019-03-20T12:10:57Z" finished-at="2019-03-20T12:10:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testApp -->
-      </class> <!-- com.cargurus.com.image.AppTest -->
+    <test name="Default test" duration-ms="9529" started-at="2019-03-20T17:01:18Z" finished-at="2019-03-20T17:01:28Z">
       <class name="com.cargurus.com.image.ImageCrossing">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.cargurus.com.image.ImageCrossing@612679d6]" name="setup" is-config="true" duration-ms="7294" started-at="2019-03-20T12:10:48Z" finished-at="2019-03-20T12:10:55Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cargurus.com.image.ImageCrossing@6a1aab78]" name="setup" is-config="true" duration-ms="7437" started-at="2019-03-20T17:01:18Z" finished-at="2019-03-20T17:01:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testImg()[pri:0, instance:com.cargurus.com.image.ImageCrossing@612679d6]" name="testImg" duration-ms="2036" started-at="2019-03-20T12:10:55Z" finished-at="2019-03-20T12:10:57Z">
+        <test-method status="PASS" signature="testImg()[pri:0, instance:com.cargurus.com.image.ImageCrossing@6a1aab78]" name="testImg" duration-ms="2073" started-at="2019-03-20T17:01:25Z" finished-at="2019-03-20T17:01:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testImg -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cargurus.com.image.ImageCrossing@612679d6]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-20T12:10:57Z" finished-at="2019-03-20T12:10:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cargurus.com.image.ImageCrossing@6a1aab78]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-20T17:01:28Z" finished-at="2019-03-20T17:01:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.cargurus.com.image.ImageCrossing -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
