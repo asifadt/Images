@@ -53,8 +53,8 @@ public class ImageCrossing {
 				imgb);
 
 		BufferedImage actualImage = ImageScreenshot.getImage();
-		System.out.println(actualImage.getWidth());
-		System.out.println(actualImage.getHeight());
+		//System.out.println(actualImage.getWidth());
+		//System.out.println(actualImage.getHeight());
 
 		ImageDiffer imgDiff = new ImageDiffer();
 		ImageDiff diff = imgDiff.makeDiff(actualImage, expectedImage);
